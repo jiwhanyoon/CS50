@@ -1,0 +1,19 @@
+0.  BMP&JPEG: 16 million, GIF: 256 colors, PNG: 256 teracolors (281,474,976,710,656 colors).
+1.  GIF
+2.  Lossless means that the image is made smaller, but at no detriment to the quality. Lossy means the image is made smaller, but at a detriment to the quality. 
+3.  JPEG is lossy. 
+4.  It rewrites the metadata that points to the file but leaves the blocks alone. First character is marked to show that it has been deleted. Then it moves all of the clusters into the hard drive's list. 
+5.  I may overwrite the drive's data so it cannot be recovered. 
+6.  It is a header to declare sets of integer types having specific width and sets of macros, along with limits of integer types. 
+7.  It is a predefined type for specific usage of numeric values of integers.                           
+8.  BYTE: 1 byte, DWORD: 4 bytes, LONG: 4 bytes, WORD: 2 bytes
+9.  The first two bytes must be the BM to indicate bitmap. 
+10. bfSize indicates the size of the bitmap file while biSize indicates the size of the bitmap info struct.  
+11. It is simply reading top-down to have a height that is read downwards with the starting point in the upper left corner. This cannot be compressed
+12. biBitCount specifices color depth.
+13. There might not be enough disk space to open the file. 
+14. it makes it read it once, meaning it should read just one set.
+15. copy.c:70 assigns padding to 1. 
+16. fseek sets the position indicator to a particular position. 
+17. It sets the file position a certain count of characters from the current position, either positive or negative. 
+18. Rick Astley
