@@ -1,0 +1,24 @@
+0.  What is pneumonoultramicroscopicsilicovolcanoconiosis?
+    A medical condition caused by the inhalation of fine silica dust. Longest word in English dictionary.
+1.  Get resource usage: returns pointer to a struct containing the usage statistics(such as CPU) of the program. 
+2.  In that same page, rusage contains 16 data types. 
+3.  They are reference points before and after the fuction run, to see the change in the time that has passed for the data.
+4.  
+
+Main functions loads the text file into fp and iterates through the characters. When fgetc meets an alphabet or apostrophe(the conditions within the first if statement, with index > 0), it will use the index number to assign it into the array word[]. If it meets a digit, it will recognize not as a word and use the while loop to SKIP until it meets an alphabet. If it is a space or other signs, it will be considered to be the end with \0. When this happens, then it will compare the scanned word with the word from the dictionary, record the number of words found, misspelled, time/resource usage and THEN reset the index for the next upcoming word. WHEW!
+
+5.  With fscanf alone, the entire string is copied including hyphens or commas, which won't listed in the dictionary for spelling check.
+6.  Pointers to a constant character. Cannot change the values that they are pointing to so when the functions cannot change the elemnts within the WORD array, but only to read them while other pointers can go the address and change the value of the chars stored in the array by passing new strings.
+7.  A hash table
+8. 
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         1.54
+TIME IN check:        0.20
+TIME IN size:         0.00
+TIME IN unload:       0.17
+TIME IN TOTAL:        1.92
+
+9.  It would not load so I tried multiple hash functions and also fixed memory leaks with signed/unsigned ints/char*s etc. 
+10. Possibly, but I am glad that it's over!
